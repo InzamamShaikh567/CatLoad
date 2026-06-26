@@ -1,0 +1,31 @@
+<svg width="220" height="60" viewBox="0 0 220 60" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <style>
+      .btn {
+        fill: #e63946;
+      }
+
+      .text {
+        font-family: Arial, sans-serif;
+        font-size: 15px;
+        fill: white;
+        font-weight: bold;
+      }
+    </style>
+  </defs>
+
+  <!-- Tight pill button (no extra side padding) -->
+  <rect x="0" y="0" width="220" height="60" rx="30" ry="30" class="btn" />
+
+  <!-- Centered text -->
+  <text x="110" y="38" text-anchor="middle" class="text">
+    ❤️ Support CaLoad
+  </text>
+
+  <!-- Clickable area -->
+  <a href="https://www.paypal.com/paypalme/GaffarAliShaikh" target="_blank">
+    <rect x="0" y="0" width="220" height="60" rx="30" ry="30" fill="transparent"/>
+  </a>
+
+</svg>

@@ -34,6 +34,10 @@ Pick specific video and audio formats before downloading.
   <img src="screenshot/customdownload.png" width="80%" alt="Custom download options" />
 </p>
 
+<p align="center">
+  <img src="screenshot/gif/customdownload.gif" width="80%" alt="Custom download options" />
+</p>
+
 ### Cookie Support
 Import cookies.txt for restricted or account-linked content.
 

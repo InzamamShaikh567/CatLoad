@@ -47,7 +47,7 @@ Note: For bulk downloading, we prefer using a VPN to help avoid IP rate limits.
 
 
 ### Playlist Link Support 
-Also checkbox to have Number Prefix & Playlist Folders
+Also added checkboxes for Number Prefixes and Playlist Folders.
 <p align="center">
   <img src="screenshot/gif/playlistLink.gif" width="80%" alt="Playlist link" />
 </p>
@@ -56,7 +56,7 @@ Also checkbox to have Number Prefix & Playlist Folders
 
 ### Number Prefix & Playlist Folders 
 "Add number prefixes" Automatically adds number prefixes to all playlist videos based on their playlist order
-and "Save to playlist" Saves downloaded videos in a folder named after the playlist.
+and "Save to playlist folder" Saves downloaded videos in a folder named after the playlist.
 
 <p align="center">
   <img src="screenshot/gif/Number-Prefix, thumbnail-playlist-folder.gif" width="80%" alt="Number prefix and playlist folder" />
@@ -90,11 +90,13 @@ Configurable parallel download queue.
   <img src="screenshot/concurrentdownload.png" width="80%" alt="Concurrent downloads" />
 </p>
 
-### Support & Help
+### Love CatLoad?
 
-<p align="center">
-  <img src="screenshot/support.png" width="80%" alt="Support" />
-</p>
+If CatLoad has been useful to you, consider supporting it development. 
+
+<a href="https://www.paypal.com/paypalme/GaffarAliShaikh">
+  <img src="support.svg" alt="Support CaLoad" />
+</a>
 
 ## Tech Stack
 

@@ -95,7 +95,7 @@ Configurable parallel download queue.
 If CatLoad has been useful to you, consider supporting it development. 
 
 <a href="https://www.paypal.com/paypalme/GaffarAliShaikh">
-  <img src="support.svg" alt="Support CaLoad" />
+  <img src="screenshot/support.svg" alt="Support CaLoad" />
 </a>
 
 ## Tech Stack

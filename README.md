@@ -18,6 +18,13 @@ Everything runs locally on your machine - no cloud,no login, no accounts, no tra
   <img src="screenshot/gif/theme.gif" width="80%" alt="CatLoad theme switching" />
 </p>
 
+
+## ⬇️ Download for Windows
+
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.exe">
+  <img src="https://img.shields.io/badge/Download-Windows%20EXE-blue?style=for-the-badge&logo=windows" />
+</a>
+
 ## Features
 
 ### Universal Download

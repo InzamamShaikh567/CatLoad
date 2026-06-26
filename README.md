@@ -1,24 +1,100 @@
+<div align="center">
+
+<img src="src/main/resources/icons/tabby.png" width="128" alt="CatLoad icon" />
+
 # CatLoad
 
-Catload - A free and open-source cross-platform media downloader built with JavaFX 21. Lightweight design with low RAM usage for smooth performance. Download videos, audio, or entire playlists. Native packaging for Windows and Linux.
+A free and open-source cross-platform media downloader built with JavaFX 21. Lightweight design with low RAM usage for smooth performance. Download videos, audio, or entire playlists.
+
+Supports YouTube, YouTube Shorts, TikTok, Instagram, Reddit and [thousands of other sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md) via yt-dlp.
+
+Everything runs locally on your machine - no cloud,no login, no accounts, no tracking.
+
+</div>
+
+<br/>
+
+<p align="center">
+  <img src="screenshot/gif/theme.gif" width="80%" alt="CatLoad theme switching" />
+</p>
 
 ## Features
 
-- **Universal Download** — paste any URL and CatLoad handles the rest
-- **Playlist Support** — browse playlist entries, select individual videos, add number prefixes and save to playlist folders
-- **Custom Stream Selection** — pick specific video and audio formats before downloading
-- **Format Presets** — Best Quality, 1080p, 720p, 480p, Audio M4A, Audio MP3
-- **Auto Updates** — yt-dlp updates directly from the app
-- **Auto FFmpeg Install** — downloads and installs FFmpeg automatically if missing
-- **Concurrent Downloads** — configurable parallel download queue
-- **Cookie Support** — import cookies.txt for restricted or account-linked content
-- **Dark & Light Theme** — Apple-inspired glass aesthetic
-- **Thumbnail Previews** — cached per download
-- **Retry & Resume** — automatic retry on failure, cancellation support
+### Universal Download
+Paste any URL and CatLoad handles the rest.
 
-## Supported Platforms
+<p align="center">
+  <img src="screenshot/normaldownload.png" width="80%" alt="Normal download" />
+</p>
 
-YouTube, YouTube Shorts, TikTok, Instagram,  Reddit and many more via yt-dlp.
+### Custom Stream Selection
+Pick specific video and audio formats before downloading.
+
+<p align="center">
+  <img src="screenshot/customdownload.png" width="80%" alt="Custom download options" />
+</p>
+
+### Cookie Support
+Import cookies.txt for restricted or account-linked content.
+
+Learn how to get your [cookies.txt](https://www.reddit.com/r/youtubedl/wiki/cookies) file and load it into the app settings. 
+
+Note: For bulk downloading, we prefer using a VPN to help avoid IP rate limits.
+
+<p align="center">
+  <img src="screenshot/cookies.png" width="80%" alt="Cookie import" />
+</p>
+
+
+### Playlist Link Support 
+Also checkbox to have Number Prefix & Playlist Folders
+<p align="center">
+  <img src="screenshot/gif/playlistLink.gif" width="80%" alt="Playlist link" />
+</p>
+
+
+
+### Number Prefix & Playlist Folders 
+"Add number prefixes" Automatically adds number prefixes to all playlist videos based on their playlist order
+and "Save to playlist" Saves downloaded videos in a folder named after the playlist.
+
+<p align="center">
+  <img src="screenshot/gif/Number-Prefix, thumbnail-playlist-folder.gif" width="80%" alt="Number prefix and playlist folder" />
+</p>
+
+
+<p align="center">
+  <img src="screenshot/gif/playlistomages.gif" width="80%" alt="Playlist browsing" />
+</p>
+
+
+
+### Retry & Resume
+Automatic retry on failure with cancellation support.
+
+<p align="center">
+  <img src="screenshot/gif/failed_downloading_complete.gif" width="80%" alt="Failed download handling" />
+</p>
+
+### Auto Engine Setup
+yt-dlp updates and automatic FFmpeg install directly from the app.
+
+<p align="center">
+  <img src="screenshot/ytdlp-ffmpeg-engine.png" width="80%" alt="Engine management" />
+</p>
+
+### Concurrent Downloads
+Configurable parallel download queue.
+
+<p align="center">
+  <img src="screenshot/concurrentdownload.png" width="80%" alt="Concurrent downloads" />
+</p>
+
+### Support & Help
+
+<p align="center">
+  <img src="screenshot/support.png" width="80%" alt="Support" />
+</p>
 
 ## Tech Stack
 

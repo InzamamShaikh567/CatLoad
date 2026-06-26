@@ -90,7 +90,7 @@ Configurable parallel download queue.
   <img src="screenshot/concurrentdownload.png" width="80%" alt="Concurrent downloads" />
 </p>
 
-### Love CatLoad?
+### Support CatLoad
 
 If CatLoad has been useful to you, consider supporting it development. 
 

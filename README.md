@@ -8,7 +8,7 @@ A free and open-source cross-platform media downloader built with JavaFX 21. Lig
 
 Supports YouTube, YouTube Shorts, TikTok, Instagram, Reddit and [thousands of other sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md) via yt-dlp.
 
-Everything runs locally on your machine - no cloud,no login, no accounts, no tracking.
+Everything runs locally on your machine - no cloud, no login, no accounts, no tracking and support for Cookies.txt.
 
 </div>
 

@@ -4,7 +4,7 @@
 
 # CatLoad
 
-A free and open-source cross-platform media downloader built with JavaFX 21. Lightweight design with low RAM usage for smooth performance. Download videos, audio, or entire playlists.
+A free and open-source cross-platform media downloader built with JavaFX 21. Designed to be lightweight, fast, and memory-efficient while supporting videos, audio, and entire playlists.
 
 Supports YouTube, YouTube Shorts, TikTok, Instagram, Reddit and [thousands of other sites](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md) via yt-dlp.
 
@@ -53,6 +53,17 @@ Everything runs locally on your machine - no cloud, no login, no accounts, no tr
 
 ## Features
 
+- Custom video/audio stream selection
+- Playlist downloading
+- Number prefixes for playlists
+- Playlist folders
+- Cookie support (cookies.txt)
+- Concurrent downloads
+- Retry and resume downloads
+- Automatic yt-dlp updates
+- Automatic FFmpeg installation
+- Windows & Linux support
+
 ### Universal Download
 Paste any URL and CatLoad handles the rest.
 
@@ -76,7 +87,7 @@ Import cookies.txt for restricted or account-linked content.
 
 Learn how to get your [cookies.txt](https://www.reddit.com/r/youtubedl/wiki/cookies) file and load it into the app settings. 
 
-Note: For bulk downloading, we prefer using a VPN to help avoid IP rate limits.
+Note: When downloading a large number of videos, using a VPN may help reduce the chance of IP rate limiting.
 
 <p align="center">
   <img src="screenshot/cookies.png" width="80%" alt="Cookie import" />
@@ -84,7 +95,7 @@ Note: For bulk downloading, we prefer using a VPN to help avoid IP rate limits.
 
 
 ### Playlist Link Support 
-Also added checkboxes for Number Prefixes and Playlist Folders.
+Optional settings let you automatically add number prefixes and organize downloads into playlist folders.
 <p align="center">
   <img src="screenshot/gif/playlistLink.gif" width="80%" alt="Playlist link" />
 </p>
@@ -92,8 +103,9 @@ Also added checkboxes for Number Prefixes and Playlist Folders.
 
 
 ### Number Prefix & Playlist Folders 
-"Add number prefixes" Automatically adds number prefixes to all playlist videos based on their playlist order
-and "Save to playlist folder" Saves downloaded videos in a folder named after the playlist.
+"Add number prefixes" Automatically automatically renames downloaded files based on their playlist order.
+"Save to playlist folder" Saves downloaded videos inside a folder named after the playlist.
+
 
 <p align="center">
   <img src="screenshot/gif/Number-Prefix, thumbnail-playlist-folder.gif" width="80%" alt="Number prefix and playlist folder" />
@@ -107,21 +119,21 @@ and "Save to playlist folder" Saves downloaded videos in a folder named after th
 
 
 ### Retry & Resume
-Automatic retry on failure with cancellation support.
+Automatically retries failed downloads with support for cancellation.
 
 <p align="center">
   <img src="screenshot/gif/failed_downloading_complete.gif" width="80%" alt="Failed download handling" />
 </p>
 
 ### Auto Engine Setup
-yt-dlp updates and automatic FFmpeg install directly from the app.
+Update yt-dlp and install FFmpeg directly from the application.
 
 <p align="center">
   <img src="screenshot/ytdlp-ffmpeg-engine.png" width="80%" alt="Engine management" />
 </p>
 
 ### Concurrent Downloads
-Configurable parallel download queue.
+Supports configurable parallel downloads (up to 10 at once) with a download queue for efficient processing.
 
 <p align="center">
   <img src="screenshot/concurrentdownload.png" width="80%" alt="Concurrent downloads" />
@@ -129,7 +141,7 @@ Configurable parallel download queue.
 
 ### Support CatLoad
 
-If CatLoad has been useful to you, consider supporting it development. 
+If CatLoad has been useful to you, consider supporting its development. 
 
 <a href="https://www.paypal.com/paypalme/GaffarAliShaikh">
   <img src="screenshot/support.svg" alt="Support CaLoad" />

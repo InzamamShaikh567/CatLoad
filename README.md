@@ -144,6 +144,10 @@ If CatLoad has been useful to you, consider supporting it development.
 - **Jackson** JSON serialization
 - **Maven** build system
 
+
+
 ## License
 
-[MIT](https://github.com/InzamamShaikh567/CatLoad/blob/main/LICENSE)
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+See the [LICENSE](https://github.com/InzamamShaikh567/CatLoad/blob/main/LICENSE) file for the full license text.

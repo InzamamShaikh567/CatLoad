@@ -25,6 +25,32 @@ Everything runs locally on your machine - no cloud, no login, no accounts, no tr
   <img src="https://img.shields.io/badge/Download-Windows%20EXE-blue?style=for-the-badge&logo=windows" />
 </a>
 
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.msi">
+  <img src="https://img.shields.io/badge/Download-Windows%20MSI-blue?style=for-the-badge&logo=windows" />
+</a>
+
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-Portable.zip">
+  <img src="https://img.shields.io/badge/Download-Portable%20ZIP-lightgrey?style=for-the-badge&logo=windows" />
+</a>
+
+
+
+---
+
+## 🐧 Download for Linux
+
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.deb">
+  <img src="https://img.shields.io/badge/Download-DEB-orange?style=for-the-badge&logo=debian" />
+</a>
+
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.rpm">
+  <img src="https://img.shields.io/badge/Download-RPM-red?style=for-the-badge&logo=fedora" />
+</a>
+
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.AppImage">
+  <img src="https://img.shields.io/badge/Download-AppImage-green?style=for-the-badge&logo=linux" />
+</a>
+
 ## Features
 
 ### Universal Download

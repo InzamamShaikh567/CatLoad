@@ -39,15 +39,15 @@ Everything runs locally on your machine - no cloud, no login, no accounts, no tr
 
 ## 🐧 Download for Linux
 
-<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.deb">
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/catload_1.0.0_amd64.deb">
   <img src="https://img.shields.io/badge/Download-DEB-orange?style=for-the-badge&logo=debian" />
 </a>
 
-<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.rpm">
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/catload-1.0.0-1.x86_64.rpm">
   <img src="https://img.shields.io/badge/Download-RPM-red?style=for-the-badge&logo=fedora" />
 </a>
 
-<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0.AppImage">
+<a href="https://github.com/InzamamShaikh567/CatLoad/releases/latest/download/CatLoad-1.0.0-x86_64.AppImage">
   <img src="https://img.shields.io/badge/Download-AppImage-green?style=for-the-badge&logo=linux" />
 </a>
 

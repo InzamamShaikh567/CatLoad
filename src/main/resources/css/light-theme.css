@@ -349,6 +349,10 @@
 .nav-badge-failed {
     -fx-background-color: #FF3B30;
 }
+.nav-badge-queued {
+    -fx-background-color: #FFD60A;
+    -fx-text-fill: black;
+}
 
 /* ===== Thumbnail ===== */
 .thumbnail {

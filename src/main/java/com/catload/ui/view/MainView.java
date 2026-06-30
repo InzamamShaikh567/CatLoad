@@ -22,6 +22,7 @@ public class MainView extends BorderPane {
     private Label badgeDownloading;
     private Label badgeCompleted;
     private Label badgeFailed;
+    private Label badgeQueued;
     private ToggleButton themeToggle;
 
     public MainView(ThemeManager themeManager) {
@@ -50,10 +51,11 @@ public class MainView extends BorderPane {
     public DownloadsView getDownloadsView() { return downloadsView; }
     public SettingsView getSettingsView() { return settingsView; }
 
-    public void updateDownloadBadges(int downloading, int completed, int failed) {
+    public void updateDownloadBadges(int downloading, int completed, int failed, int queued) {
         setBadge(badgeDownloading, downloading);
         setBadge(badgeCompleted, completed);
         setBadge(badgeFailed, failed);
+        setBadge(badgeQueued, queued);
     }
 
     private void setBadge(Label badge, int count) {
@@ -112,8 +114,9 @@ public class MainView extends BorderPane {
         badgeDownloading = createBadgeLabel("nav-badge-downloading");
         badgeCompleted = createBadgeLabel("nav-badge-completed");
         badgeFailed = createBadgeLabel("nav-badge-failed");
+        badgeQueued = createBadgeLabel("nav-badge-queued");
 
-        content.getChildren().addAll(label, spacer, badgeDownloading, badgeCompleted, badgeFailed);
+        content.getChildren().addAll(label, spacer, badgeDownloading, badgeCompleted, badgeFailed, badgeQueued);
         btn.setGraphic(content);
         return btn;
     }

@@ -46,7 +46,7 @@ public class SettingsView extends VBox {
         Label dirLabel = new Label("Download Directory");
         dirLabel.getStyleClass().add("label-subtitle");
 
-        this.downloadDirField = new TextField(System.getProperty("user.home") + "/Downloads/CatLoad");
+        this.downloadDirField = new TextField();
         downloadDirField.getStyleClass().add("url-field");
         downloadDirField.setMaxWidth(Double.MAX_VALUE);
 
@@ -148,6 +148,11 @@ public class SettingsView extends VBox {
         cookiesDesc.getStyleClass().add("label-subtitle");
         cookiesDesc.setWrapText(true);
 
+        Label cookiesHelpLink = new Label("How to get your Cookies.txt?");
+        cookiesHelpLink.getStyleClass().add("label-subtitle");
+        cookiesHelpLink.setCursor(javafx.scene.Cursor.HAND);
+        cookiesHelpLink.setOnMouseClicked(e -> openUrl("https://github.com/InzamamShaikh567/CatLoad/blob/main/README.md#cookie-support"));
+
         this.cookiesImportBtn = new Button("Import cookies.txt...");
         cookiesImportBtn.getStyleClass().add("btn-secondary");
 
@@ -165,7 +170,7 @@ public class SettingsView extends VBox {
         pathRow.getChildren().addAll(cookiesPathLabel, clearCookiesBtn);
 
         cookiesSection.getChildren().addAll(
-                cookiesHeader, cookiesDesc, cookiesImportBtn, pathRow
+                cookiesHeader, cookiesDesc, cookiesHelpLink, cookiesImportBtn, pathRow
         );
 
         // --- About Section ---
@@ -228,6 +233,7 @@ public class SettingsView extends VBox {
     }
 
     public TextField getDownloadDirField() { return downloadDirField; }
+    public void setDownloadDirectory(String path) { downloadDirField.setText(path); }
     public Slider getConcurrentSlider() { return concurrentSlider; }
     public CheckBox getAutoStartCheck() { return autoStartCheck; }
     public Label getEngineVersionLabel() { return engineVersionLabel; }

@@ -369,6 +369,10 @@
 .nav-badge-failed {
     -fx-background-color: #FF453A;
 }
+.nav-badge-queued {
+    -fx-background-color: #FFD60A;
+    -fx-text-fill: black;
+}
 
 /* ===== Thumbnail ===== */
 .thumbnail {

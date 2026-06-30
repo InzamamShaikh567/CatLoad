@@ -164,6 +164,7 @@ public class MainController {
         // so listener callbacks don't trigger redundant saves on startup
         settingsView.getConcurrentSlider().setValue(config.getConcurrentDownloads());
         settingsView.getAutoStartCheck().setSelected(config.isAutoStartDownloads());
+        settingsView.setDownloadDirectory(config.getDownloadDirectory());
 
         settingsView.getConcurrentSlider().valueProperty().addListener((obs, old, val) -> {
             config.setConcurrentDownloads(val.intValue());
@@ -173,6 +174,12 @@ public class MainController {
         settingsView.getAutoStartCheck().selectedProperty().addListener((obs, old, val) -> {
             config.setAutoStartDownloads(val);
             prefsRepo.saveConfig(config);
+        });
+        settingsView.getDownloadDirField().textProperty().addListener((obs, old, val) -> {
+            if (val != null && !val.isBlank() && !val.equals(old)) {
+                config.setDownloadDirectory(val);
+                prefsRepo.saveConfig(config);
+            }
         });
         settingsView.getEngineUpdateBtn().setOnAction(e -> {
             Button btn = settingsView.getEngineUpdateBtn();
@@ -459,7 +466,8 @@ public class MainController {
         mainView.updateDownloadBadges(
                 countStatus(DownloadStatus.DOWNLOADING),
                 countStatus(DownloadStatus.COMPLETED),
-                countStatus(DownloadStatus.FAILED)
+                countStatus(DownloadStatus.FAILED),
+                countStatus(DownloadStatus.QUEUED)
         );
     }
 
